@@ -248,7 +248,7 @@ sap.ui.define([
                             this.oRejectDialog.close();
                             let oUpdateData = {
                                 Appr: 0,
-                                Status : 2,      // 취소
+                                Status : 1,      // 취소
                                 Rejreason : sText // 반려 사유
                             };
                             this.update(oUpdateData)
