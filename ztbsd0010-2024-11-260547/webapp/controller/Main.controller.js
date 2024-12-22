@@ -12,56 +12,44 @@ sap.ui.define([
                 this.getView().byId("tabItem").bindElement(sPath);
             },
             sopStatus: function (status) {
-                switch (status) {
-                    case 1:
-                        return "진행중"
-                    case 2:
-                        return "취소"
-                    case 3:
-                        return "중단"
-                    case 4:
-                        return "완료"
-                    default:
-                        return "필요"
+                let statusCheck = {
+                    1:"진행중",
+                    2:"취소",
+                    3:"중단",
+                    4:"완료",
+                    5:"필요",
                 }
+                return statusCheck[status]
             },
             availableState : function (status) {
-                switch (status) {
-                    case 1:
-                        return 8
-                    case 2:
-                        return 3
-                    case 3:
-                        return 5
-                    case 4:
-                        return 7
-                    default:
-                        return 9
+                let statusCheck = {
+                    1:8,
+                    2:3,
+                    3:5,
+                    4:7,
+                    0:9,
                 }
+                return statusCheck[status]
             },
             apprIcon: function (status) {
-                switch (status) {
-                    case 1:
-                        return "sap-icon://message-success"; // 승인
-                    case 2:
-                        return "sap-icon://accept"; // 최종승인
-                    default:
-                        return "sap-icon://decline"; // 미승인
+                let statusCheck = {
+                    0:"sap-icon://decline", // 미승인
+                    1:"sap-icon://message-success", // 승인
+                    2:"sap-icon://accept",  // 최종승인
                 }
+                return statusCheck[status]
             },
             apprColor: function (status) {
-                switch (status) {
-                    case 1:
-                        return "Critical"; // 승인
-                    case 2:
-                        return "Positive"; // 최종승인
-                    default:
-                        return "Negative"; // 미승인
+                let statusCheck = {
+                    0:"Negative", // 미승인
+                    1:"Critical", // 승인
+                    2:"Positive",  // 최종승인
                 }
+                return statusCheck[status]
             },
             rej_enable: function (status) {
                 let btn = this.getView().byId('rej_bth');
-                if (status == "") {
+                if (status === "") {
                     btn.setEnabled = 'false'
                 } else {
                     btn.setEnabled = true
@@ -88,7 +76,7 @@ sap.ui.define([
                 let oItem = event.getSource().getBindingContext().getPath();
                 let oModel = this.getView().getModel();
                 let data = oModel.getProperty(oItem);
-                if (data.Rejreason == '') return false
+                if (data.Rejreason === '') return false
                 this.onRejMessageBox(data.Rejreason)
             },
             onRejMessageBox: function (msg) {
@@ -144,8 +132,6 @@ sap.ui.define([
                 let sop_status = aSelectedIndices.getBindingContext().getProperty('Status')
                 let appr_status = aSelectedIndices.getBindingContext().getProperty('Appr')
 
-                console.log('appr_status', appr_status)
-
                 if (appr_status === 2) {
                     MessageToast.show("이미 최종승인된 문서가 있습니다.");
                     return false;
@@ -162,7 +148,7 @@ sap.ui.define([
                 if (!this.update_validation()) return
                 let appr = 1    
                 let sstatus = 0
-                if (status == 'S') {
+                if (status === 'S') {
                     appr = 0
                     sstatus = 3
                 }
@@ -234,7 +220,7 @@ sap.ui.define([
                             width: "100%",
                             placeholder: "Add note (required)",
                             liveChange: function (oEvent) {
-                                var sText = oEvent.getParameter("value");
+                                let sText = oEvent.getParameter("value");
                                 this.oRejectDialog.getBeginButton().setEnabled(sText.length > 0);
                             }.bind(this)
                         })
