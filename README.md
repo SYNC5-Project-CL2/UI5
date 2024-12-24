@@ -11,6 +11,7 @@
 | :----------------------------------------------------------: | :----------------------------------------------------------- |
 | **윤소영(SCM)<br><br>[![SoYeong](https://img.shields.io/badge/YUNSO-F77623?style=flat&logo=github&logoColor=black&height:30px&color=fedcba)](https://github.com/usern77)** | ⚬ [B2B] 판매운영계획 상신 프로그램<br>⚬ [B2B] 월별 판매실적 비교 프로그램<br> |
 
+</div>
 <br>
 
 
