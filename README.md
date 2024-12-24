@@ -11,36 +11,6 @@
 | :----------------------------------------------------------: | :----------------------------------------------------------- |
 | **윤소영(SCM)<br><br>[![SoYeong](https://img.shields.io/badge/YUNSO-F77623?style=flat&logo=github&logoColor=black&height:30px&color=fedcba)](https://github.com/usern77)** | ⚬ [B2B] 판매운영계획 상신 프로그램<br>⚬ [B2B] 월별 판매실적 비교 프로그램<br> |
 
-</div>
-
-  <br>
-  <br>
-
-<div align=center><h1>🖥️Tech. Stacks🖥️</h1></div>
-
-<div align=center> 
-  <img alt="UI5" src="https://raw.githubusercontent.com/SAP/ui5-tooling/main/docs/images/UI5_logo_wide.png" style="height: 40px; background-color: #87CEEB;">
-  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
-  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
-  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
-  <br>
-
-  <img alt="ABAP" src="https://raw.githubusercontent.com/github/explore/339de3fa1bceb3fe3eda8c8220bccc706057203f/topics/abap/abap.png" style="height: 70px; background-color: #87CEEB;">
-  <br>
-
-  <img alt="HANA DB" src="https://dbdb.io/media/logos/hana.png" style="height: 30px; background-color: #87CEEB;">
-  <br>
-  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <br>
-
-  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="64" height="64" style="background-color:white;">
-  <br>
-
-</div>
-<br>
-
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=F5ABBB&height=40&section=footer&text=&fontSize=0" width="100%"/>
 <br>
 
 
@@ -300,3 +270,34 @@ comboBoxChange : function () {
 }
 ```
 
+
+</div>
+
+  <br>
+  <br>
+
+<div align=center><h1>🖥️Tech. Stacks🖥️</h1></div>
+
+<div align=center> 
+  <img alt="UI5" src="https://raw.githubusercontent.com/SAP/ui5-tooling/main/docs/images/UI5_logo_wide.png" style="height: 40px; background-color: #87CEEB;">
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+  <br>
+
+  <img alt="ABAP" src="https://raw.githubusercontent.com/github/explore/339de3fa1bceb3fe3eda8c8220bccc706057203f/topics/abap/abap.png" style="height: 70px; background-color: #87CEEB;">
+  <br>
+
+  <img alt="HANA DB" src="https://dbdb.io/media/logos/hana.png" style="height: 30px; background-color: #87CEEB;">
+  <br>
+  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <br>
+
+  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="64" height="64" style="background-color:white;">
+  <br>
+
+</div>
+<br>
+
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=F5ABBB&height=40&section=footer&text=&fontSize=0" width="100%"/>
