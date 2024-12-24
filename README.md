@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FDC830,10:F9B94D,30:F89D3B,75:F97C00,100:F77623&height=100&section=header&text=&fontSize=0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=F5ABBB&height=100&section=header&text=&fontSize=0" width="100%"/>
 
 ## 안녕하세요. 윤소영입니다.
 
@@ -9,7 +9,7 @@
 
 |                       이름(담당 모듈)                        | UI5 프로그램                                                 |
 | :----------------------------------------------------------: | :----------------------------------------------------------- |
-| **윤소영(SCM)<br><br>[![SoYeong](https://img.shields.io/badge/YUNSO-F77623?style=flat&logo=github&logoColor=black&height:30px)](https://github.com/usern77)** | ⚬ [B2B] 판매운영계획 상신 프로그램<br>⚬ [B2B] 월별 판매실적 비교 프로그램<br> |
+| **윤소영(SCM)<br><br>[![SoYeong](https://img.shields.io/badge/YUNSO-F77623?style=flat&logo=github&logoColor=black&height:30px&color=fedcba)](https://github.com/usern77)** | ⚬ [B2B] 판매운영계획 상신 프로그램<br>⚬ [B2B] 월별 판매실적 비교 프로그램<br> |
 
 </div>
 
@@ -40,8 +40,9 @@
 <br>
 
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FDC830,10:F9B94D,30:F89D3B,75:F97C00,100:F77623&height=40&section=footer&text=&fontSize=0" width="100%"/>
-
+<img src="https://capsule-render.vercel.app/api?type=rect&color=F5ABBB&height=40&section=footer&text=&fontSize=0" width="100%"/>
+<br>
+<br>
 
 
 
