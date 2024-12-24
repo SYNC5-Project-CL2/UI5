@@ -39,18 +39,6 @@
 </div>
 <br>
 
-<div align=right>
-  <a href="mailto:gguakim33@gmail.com">
-   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white" style="height: 20px;">
-  </a>
-  <!-- 깃허브 방문자 수 -->
-  <a href="https://github.com/SYNC-Project-CL5">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSYNC-Project-CL5&count_bg=%23000000&title_bg=%23000000&icon=github.svg&icon_color=%23E7E7E7&title=GitHub&edge_flat=false&type=total">
-</a>
-  </a>
-</a>
-</div> 
-
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FDC830,10:F9B94D,30:F89D3B,75:F97C00,100:F77623&height=40&section=footer&text=&fontSize=0" width="100%"/>
 
